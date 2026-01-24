@@ -54,3 +54,7 @@ header.hero nav {
   position: relative;
   z-index: 20;
 }
+
+.hero-img {
+  pointer-events: none;
+}
