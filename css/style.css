@@ -1,0 +1,46 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; scroll-behavior: smooth; }
+header.hero { text-align: center; padding: 50px 20px; background: linear-gradient(135deg,#1B3A6B,#F7941E); color: #fff; }
+header.hero .logo { width: 180px; margin-bottom: 15px; }
+header.hero h1 { font-size: 2.4rem; margin: 10px 0; }
+header.hero nav a { margin:0 15px; font-weight:bold; color:#fff; transition:color 0.3s; }
+header.hero nav a:hover { color:#F7941E; }
+.hero-img { width:100%; max-height:400px; object-fit:cover; margin-top:20px; border-radius:5px; }
+.content-section { padding:50px 20px; max-width:1100px; margin:auto; }
+.section-bg { background-color:#f7f7f7; }
+.content-section h2 { text-align:center; color:#1B3A6B; margin-bottom:25px; }
+.services-wrapper { display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; }
+.service-item { width:30%; min-width:250px; text-align:center; transition: transform 0.3s, box-shadow 0.3s; cursor:pointer; }
+.service-item:hover { transform:translateY(-5px); box-shadow:0 4px 20px rgba(0,0,0,0.2); }
+.service-item img { width:100%; border-radius:5px; margin-bottom:10px; }
+.contact-info { max-width:600px; margin:auto; font-size:1.1rem; }
+.contact-info a { color:#1B3A6B; }
+.contact-info a:hover { color:#F7941E; }
+footer { text-align:center; padding:15px; background:#1B3A6B; color:#fff; font-size:0.9rem; }
+@media (max-width:800px){ .services-wrapper{flex-direction:column; align-items:center;} header.hero nav a{display:block;margin:10px 0;} }
+
+
+.who-we-are .who-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+.who-text { flex: 1; min-width: 250px; }
+.who-image { flex: 1; min-width: 250px; text-align: center; }
+.who-image img { width: 100%; max-width: 400px; border-radius: 8px; }
+@media (max-width:800px) {
+  .who-wrapper { flex-direction: column; }
+}
+
+
+.map-wrapper {
+  margin-top: 20px;
+  width: 100%;
+  height: 350px;
+}
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 8px;
+}
