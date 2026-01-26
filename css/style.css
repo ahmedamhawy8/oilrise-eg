@@ -92,3 +92,9 @@ header.hero nav {
     color: #333;
 }
 
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  transition: opacity 1s ease-in-out;
+}
