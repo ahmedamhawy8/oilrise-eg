@@ -58,3 +58,29 @@ header.hero nav {
 .hero-img {
   pointer-events: none;
 }
+
+.services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.service-item {
+    width: 280px;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.service-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.service-item h3 {
+    margin: 15px 0 10px;
+}
+
