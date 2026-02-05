@@ -100,37 +100,14 @@ header.hero nav {
 }
 
 .home-sections {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
-.home-section {
-    position: relative;
+.home-image {
     width: 100%;
-    height: 320px;
-    margin-bottom: 25px;
-    overflow: hidden;
-}
-
-.home-section img {
-    width: 100%;
-    height: 100%;
+    max-height: 420px;
+    display: block;
+    margin-bottom: 30px;
     object-fit: cover;
 }
 
-.home-section .overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.55);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.home-section h3 {
-    color: #fff;
-    font-size: 36px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-}
