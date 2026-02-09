@@ -99,12 +99,7 @@ header.hero nav {
   transition: opacity 1s ease-in-out;
 }
 
-.home-sections {
-  display: grid;
-  grid-template-columns: 1fr;   /* default: 1 per row */
-  gap: 30px;
-  margin-top: 40px;
-}
+
 
 .home-image {
     width: 100%;
@@ -113,12 +108,6 @@ header.hero nav {
     margin-bottom: 40px;
 }
 
-.home-sections {
-  display: flex;
-  flex-direction: column;   /* one by one */
-  gap: 30px;
-  margin-top: 40px;
-}
 
 .home-item img {
   width: 100%;
@@ -127,6 +116,24 @@ header.hero nav {
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
+/* HOME IMAGE SECTION LAYOUT */
+.home-sections {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+/* IMAGE STYLE */
+.home-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* DESKTOP: 2 IMAGES PER ROW */
 @media (min-width: 992px) {
   .home-sections {
     grid-template-columns: repeat(2, 1fr);
