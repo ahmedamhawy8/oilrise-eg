@@ -110,3 +110,20 @@ header.hero nav {
     display: block;
     margin-bottom: 40px;
 }
+
+.home-sections {
+  display: flex;
+  flex-direction: column;   /* one by one */
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.home-item img {
+  width: 100%;
+  max-width: 900px;        /* makes images BIG */
+  margin: 0 auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
