@@ -481,3 +481,10 @@ p { text-wrap: pretty; }
 .who-lede + .who-text { margin-top: 20px; }
 /* Products: worldwide sourcing leads the note strip */
 .note-lead { flex: 1 1 100%; font-size: 1.15rem; color: var(--paint); }
+
+/* Home hero, desktop: keep the words clear of the rings with the real web fonts.
+   The space between the text column and the rings is 650px from 1308px up. */
+@media (min-width: 901px) {
+  .hero-h { font-size: clamp(3.3rem, 5.2vw, 5.4rem); }
+  .hero-h, .hero-lead { max-width: min(610px, calc(48vw - 4px)); }
+}
